@@ -13,3 +13,13 @@ function addElementToEndOfArray(array, element){
 function destructivelyAddElementToEndOfArray(array, element){
   return array.push("element");
 }
+
+function accessElementInArray(array, index){
+  console.log(array[index]);
+}
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  return array.shift()
+}
+function removeElementFromBeginningOfArray(array){
+  return array.slice(1)
+}
